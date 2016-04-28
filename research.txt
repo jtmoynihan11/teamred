@@ -1,0 +1,15 @@
+Jet Brains (formerly IntelliJ)
+	Description
+		Dev company, tools targeted for devs and proj managers.
+	History
+		Founded in 2000 in Czech Republic.
+		500 employees in 5 offices (Praque, Saint Petersburg, Moscow, Munich, Boston)
+		IDEs for Java, Ruby, Python, PHP, Objective C, C++
+		
+IntelliJ IDEA
+	Description
+		Java IDE
+	History
+		First released in 2001.
+		One of the first Java IDEs with advanced code navigation and code refactoring.
+		Google's Android Studio, open source IDE for Android apps, based on IntelliJ IDEA.

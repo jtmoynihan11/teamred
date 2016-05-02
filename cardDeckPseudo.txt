@@ -1,0 +1,68 @@
+===============CLASS========================
+CardDeck
+==============ATTRIBUTES====================
+-cardSuit:string
+-cardValue:num
+-cardKind:string
+===============METHODS======================
++getSuit() : string
++getValue() : num
++getKind() : string
++setSuit(string suit) : void
+-setValue(num value) : void
++setKind(string kind) : void
+============================================
+
+class card
+	DECLARATIONS
+		private string suit
+		private num value
+		private string kind
+	ENDDECLATIONS
+	
+	public string getSuit()
+	RETURN suit
+	
+	public num getValue()
+	RETURN value
+	
+	public string getKind()
+	RETURN kind
+	
+	public void setSuit(string s)
+		suit = s
+	RETURN
+
+	private void setValue()
+		if (kind == "two")
+			value = 2
+		if (kind == "three")
+			value = 3
+		if (kind == "four")
+			value = 4
+		if (kind == "five")
+			value = 5
+		if (kind == "six")
+			value = 6
+		if (kind == "seven")
+			value = 7
+		if (kind == "eight")
+			value = 8
+		if (kind == "nine")
+			value = 9
+		if (kind == "ten")
+			value = 10
+		if (kind == "jack")
+			value = 11
+		if (kind == "queen")
+			value = 12
+		if (kind == "king")
+			value = 13
+		if (kind == "ace")
+			value = 14			
+		RETURN
+		
+	public void setKind(string k)
+		kind = k
+		setSuit()		
+	RETURN
